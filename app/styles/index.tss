@@ -1,0 +1,79 @@
+"#container": {
+	backgroundColor: "black"
+},
+"#fit": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#fff",
+	left: 10
+},
+
+"#logo": {
+	width: 60,
+	height: 70,
+	image: '/images/logo.png',
+	top: 20
+},
+
+"Label": {
+	font: {
+		fontSize: 20
+	},
+	top: 10,
+	color:'#fff'
+},
+
+"#scroll":{
+	top: 10,
+	height: 220,
+	width: Titanium.UI.FILL,
+	showVerticalScrollIndicator: true,
+	showHorizontalScrollIndicator: true
+},
+
+"#masterView":{
+	height: 400,
+	width: Titanium.UI.FILL
+},
+
+"#leftView":{
+	width: Alloy.Globals.widths,
+	height: 400,
+	left: 10,
+	layout: 'vertical'
+},
+"#rightView":{
+	width: Alloy.Globals.widths,
+	height: 400,
+	right: 10,
+	layout: 'vertical'
+},
+
+"#join": {
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL,
+	top: 10,
+	backgroundColor: 'red'
+},
+"#plan": {
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL,
+	backgroundColor: 'red',
+	top: 10
+},
+"#emailLogin": {
+	top: 20,
+	height: 50,
+	color: "#000",
+	left: 20,
+	right: 20,
+	backgroundColor: "#fff"
+},
+"#fbLogin": {
+	top: 10,
+	height: 50,
+	left: 20,
+	right: 20,
+	backgroundColor: "blue"
+},
+

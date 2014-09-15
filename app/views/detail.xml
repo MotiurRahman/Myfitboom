@@ -1,0 +1,11 @@
+<Alloy>
+	<Window layout="vertical" height="Ti.UI.FILL" backgroundColor="#fff">
+		<View backgroundColor="#fff" width="Ti.UI.FILL" height="60" top="20">
+			<Button id="leftbtn" backgroundImage="/images/leftbtn.png" left="10"></Button>
+			<Label>Browse Hike</Label>
+			<Button id="rightbtn" backgroundImage="/images/rightbtn.png" right="10"></Button>
+		</View>
+		<Button width="200" height="30" borderRadius="5" borderWidth="3" borderColor="#000" top="10" title="Filter"></Button>
+		<ListView top="10"></ListView>
+	</Window>
+</Alloy>

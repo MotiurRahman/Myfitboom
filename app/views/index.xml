@@ -1,0 +1,21 @@
+<Alloy>
+	<NavigationWindow id="navWin" platform="ios">
+		<Window id="container"layout="vertical" exitOnClose="true" title="Myfitboom" exitOnClose="true">
+			<ImageView id="logo"></ImageView>
+			<ScrollView id="scroll">
+				<View id="masterView">
+					<View id="leftView">
+						<Label id='fit'text="Join a Hike"></Label>
+						<View id="join"></View>
+					</View>
+					<View id="rightView">
+						<Label id='fit' text="Plan your Hike"></Label>
+						<View id="plan"></View>
+					</View>
+				</View>
+			</ScrollView>
+			<Button id="emailLogin" title="Sign in vaia Email" onClick="emailLogin"></Button>
+			<Button id="fbLogin" title="Facebook" onClick="fbLogin"></Button>
+		</Window>
+	</NavigationWindow>
+</Alloy>

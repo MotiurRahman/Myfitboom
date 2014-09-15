@@ -1,0 +1,81 @@
+
+"#logo": {
+	width: 60,
+	height: 70,
+	image: '/images/logo.png',
+	top: 5
+},
+
+"#appName": {
+	font: {
+		fontSize: 20
+	},
+	top: 10,
+	color: '#fff'
+},
+"#scrollView":{
+	height: 200,
+	width: Titanium.UI.FILL,
+	contentWidth: 'auto',
+	contentHeight: 'auto',
+	scrollingEnabled: true,
+	showVerticalScrollIndicator: true
+},
+
+"#childView": {
+	layout: "vertical",
+	width: Titanium.UI.FILL,
+	height: 300
+},
+
+"#header": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	font:{
+		size: 20
+	},
+	color: "#000",
+	left: 10,
+	top:5,
+	text:'Sign In Via Email'
+
+},
+
+"#email": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	font:{
+		size: 14
+	},
+	color: "#000",
+	left: 10,
+	top: 20
+},
+
+"#emailField": {
+	width: Ti.UI.FILL,
+	height: 45,
+	borderRadius: 5,
+	borderColor: '#000',
+	borderWidth: 2,
+	color: "#000",
+	left: 10,
+	right: 10
+},
+
+"#signIn": {
+	top: 20,
+	height: 50,
+	color: "#fff",
+	left: 20,
+	right: 20,
+	backgroundColor: "green"
+},
+"#fbLogin": {
+	top: 10,
+	height: 50,
+	left: 20,
+	right: 20,
+	bottom: 20,
+	backgroundColor: "blue"
+},
