@@ -28,7 +28,7 @@
 	height: 300
 },
 
-"#header": {
+"#header":{
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
 	font:{
@@ -36,7 +36,7 @@
 	},
 	color: "#000",
 	left: 10,
-	top:5,
+	top:10,
 	text:'Sign In Via Email'
 
 },

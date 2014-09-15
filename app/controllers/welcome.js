@@ -7,5 +7,5 @@ function onback() {
 function welcomeImg(argument) {
 	var detail = Alloy.createController('detail').getView();
 
-	detail.open();
+	$.navWin.openWindow(detail);
 }

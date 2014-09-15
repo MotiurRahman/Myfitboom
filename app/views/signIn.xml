@@ -4,7 +4,7 @@
 			<ImageView id="logo"></ImageView>
 			<ScrollView id="scrollView" backgroundColor="#fff">
 				<View  id="childView">
-					<Label font="20" text="Sign In Via Email" left="10" width="Ti.UI.SIZE" height="Ti.UI.SIZE"></Label>
+					<Label id="header"></Label>
 					<Label id="email" text="Email Address"></Label>
 					<TextField id="emailField"></TextField>
 					<Label id="email" text="Password"></Label>
