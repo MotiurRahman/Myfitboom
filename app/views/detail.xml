@@ -1,11 +1,14 @@
 <Alloy>
-	<Window layout="vertical" height="Ti.UI.FILL" backgroundColor="#fff">
-		<View backgroundColor="#fff" width="Ti.UI.FILL" height="60" top="20">
-			<Button id="leftbtn" backgroundImage="/images/leftbtn.png" left="10"></Button>
-			<Label>Browse Hike</Label>
-			<Button id="rightbtn" backgroundImage="/images/rightbtn.png" right="10"></Button>
+	<Window id="detailWin" height="Ti.UI.FILL" width="Ti.UI.FILL" backgroundColor="#fff">
+		<Require id="view1" src="menuItem" type="view"/>
+		<View width="320" height="Ti.UI.FILL" layout="vertical" id="mainView" backgroundColor="#fff" zIndex="5">
+			<View width="Ti.UI.FILL" height="60">
+				<Button id="leftbtn" backgroundImage="/images/leftbtn.png" left="20" onClick="menu"></Button>
+				<Label>Browse Hike</Label>
+				<Button id="rightbtn" backgroundImage="/images/rightbtn.png" right="30"></Button>
+			</View>
+			<Button width="200" height="30" borderRadius="5" borderWidth="3" borderColor="#000" top="10" title="Filter"></Button>
+			<ListView top="10"></ListView>
 		</View>
-		<Button width="200" height="30" borderRadius="5" borderWidth="3" borderColor="#000" top="10" title="Filter"></Button>
-		<ListView top="10"></ListView>
 	</Window>
 </Alloy>

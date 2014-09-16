@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="menuView" width="200" height="Ti.UI.FILL" backgroundColor="#2E2E2E" left="0" zIndex="4">
+		<Button onClick="close" top="10" left="10">Close</Button>
+	</View>
+</Alloy>
