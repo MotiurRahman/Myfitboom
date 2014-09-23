@@ -1,12 +1,8 @@
 <Alloy>
-	<NavigationWindow id="navWin">
-		<Window>
-			<LeftNavButton>
-				<Button id="back" title="Back" onClick="onback"></Button>
-			</LeftNavButton>
-			<View class="container">
-				<ImageView image="/images/welcome.png" onClick="welcomeImg"></ImageView>
-			</View>
-		</Window>
-	</NavigationWindow>
+	<Window>
+		<View class="container">
+			<ImageView image="/images/welcome.png" onClick="welcomeImg">
+			</ImageView>
+		</View>
+	</Window>
 </Alloy>

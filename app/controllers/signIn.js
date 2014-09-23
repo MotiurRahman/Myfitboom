@@ -1,8 +1,6 @@
 function emailLogin(e) {
 	var welcome = Alloy.createController('welcome').getView();
-	welcome.open({
-		animated : true
-	});
+	Alloy.Globals.navWin.openWindow(welcome);
 
 }
 

@@ -1,9 +1,9 @@
 <Alloy>
 	<Window id="detailWin" height="Ti.UI.FILL" width="Ti.UI.FILL" backgroundColor="#fff">
 		<Require id="view1" src="menuItem" type="view"/>
-		<View width="320" height="Ti.UI.FILL" layout="vertical" id="mainView" backgroundColor="#fff" zIndex="5">
+		<View width="320" height="Ti.UI.FILL" layout="vertical" id="mainView" backgroundColor="#fff" zIndex="2">
 			<View width="Ti.UI.FILL" height="60">
-				<Button id="leftbtn" backgroundImage="/images/leftbtn.png" left="20" onClick="menu"></Button>
+				<Button id="leftbtn" backgroundImage="/images/leftbtn.png" left="20" onClick="menu" toggle='true'></Button>
 				<Label>Browse Hike</Label>
 				<Button id="rightbtn" backgroundImage="/images/rightbtn.png" right="30"></Button>
 			</View>
