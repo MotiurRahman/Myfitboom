@@ -7,7 +7,7 @@
 				<Label>Browse Hike</Label>
 				<Button id="rightbtn" backgroundImage="/images/rightbtn.png" right="30"></Button>
 			</View>
-			<Button width="200" height="30" borderRadius="5" borderWidth="3" borderColor="#000" top="10" title="Filter"></Button>
+			<Button width="200" height="30" borderRadius="5" borderWidth="3" borderColor="#000" top="10" title="Filter" onClick="filterHike"></Button>
 			<ListView top="10"></ListView>
 		</View>
 	</Window>

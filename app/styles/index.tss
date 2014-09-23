@@ -1,5 +1,5 @@
 "#container": {
-	backgroundColor: "black"
+	backgroundColor: "#000"
 },
 "#fit": {
 	width: Ti.UI.SIZE,

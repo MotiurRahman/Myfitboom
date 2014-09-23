@@ -22,3 +22,11 @@ function menu() {
 		Alloy.Globals.index.setZIndex(1);
 	}
 }
+
+function filterHike() {
+	var filterHike = Alloy.createController('filterHikes').getView();
+	filterHike.open({
+		modal : true
+	});
+}
+

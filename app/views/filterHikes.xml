@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id='filterhike' width="Ti.UI.FILL" height="Ti.UI.FILL" backgroundColor="Transparent">
+		<Button top="30" title="close" onClick="close"></Button>
+		<View id="mainView" width="Ti.UI.FILL" height="250" bottom="0" backgroundColor="#FFF">
+		</View>
+	</Window>
+</Alloy>
