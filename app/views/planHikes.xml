@@ -1,4 +1,9 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window id="planHikeWin" backgroundColor="#fff" width="Ti.UI.FILL" height="Ti.UI.FILL" layout="vertical">
+		<View id="topView" width="Ti.UI.FILL" height="50" backgroundColor="#000" top="20">
+			<Button id="closebtn" backgroundImage="/images/close.png" left="10" onClick="close"></Button>
+			<Button width="100" height="30" borderRadius="5" borderWidth="3" borderColor="#fff" title="Done" onClick="done" right="10"></Button>
+		</View>
+		<View id="detailView" top="5"></View>
+	</Window>
 </Alloy>

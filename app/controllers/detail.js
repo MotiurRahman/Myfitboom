@@ -30,3 +30,8 @@ function filterHike() {
 	});
 }
 
+function add() {
+	var add = Alloy.createController('planHikes').getView();
+	add.open();
+}
+

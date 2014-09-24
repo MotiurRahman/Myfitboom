@@ -3,9 +3,9 @@
 		<Require id="view1" src="menuItem" type="view"/>
 		<View width="320" height="Ti.UI.FILL" layout="vertical" id="mainView" backgroundColor="#fff" zIndex="2">
 			<View width="Ti.UI.FILL" height="60">
-				<Button id="leftbtn" backgroundImage="/images/leftbtn.png" left="20" onClick="menu" toggle='true'></Button>
+				<Button id="leftbtn" backgroundImage="/images/menu.png" left="20" onClick="menu" toggle='true'></Button>
 				<Label>Browse Hike</Label>
-				<Button id="rightbtn" backgroundImage="/images/rightbtn.png" right="30"></Button>
+				<Button id="rightbtn" backgroundImage="/images/add.png" right="30" onClick="add"></Button>
 			</View>
 			<Button width="200" height="30" borderRadius="5" borderWidth="3" borderColor="#000" top="10" title="Filter" onClick="filterHike"></Button>
 			<ListView top="10"></ListView>

@@ -29,16 +29,12 @@
 },
 
 "#header":{
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
 	font:{
-		size: 20
+		size: 30
 	},
 	color: "#000",
 	left: 10,
-	top:10,
-	text:'Sign In Via Email'
-
+	top: 10
 },
 
 "#email": {
@@ -60,7 +56,19 @@
 	borderWidth: 2,
 	color: "#000",
 	left: 10,
-	right: 10
+	right: 10,
+	keyboardType:Titanium.UI.KEYBOARD_EMAIL
+},
+"#passField": {
+	width: Ti.UI.FILL,
+	height: 45,
+	borderRadius: 5,
+	borderColor: '#000',
+	borderWidth: 2,
+	color: "#000",
+	left: 10,
+	right: 10,
+	passwordMask: true
 },
 
 "#signIn": {

@@ -1,19 +1,19 @@
 <Alloy>
-		<Window  layout="vertical" backgroundColor="#000" title="FITBOOM" height="Ti.UI.FILL">
+	<Window  layout="vertical" backgroundColor="#000" title="FITBOOM" height="Ti.UI.FILL">
 
-			<ImageView id="logo"></ImageView>
-			<ScrollView id="scrollView" backgroundColor="#fff">
-				<View  id="childView">
-					<Label id="header"></Label>
-					<Label id="email" text="Email Address"></Label>
-					<TextField id="emailField"></TextField>
-					<Label id="email" text="Password"></Label>
-					<TextField id="emailField"></TextField>
-					<Label id="email" text="Confirm password"></Label>
-					<TextField id="emailField"></TextField>
-				</View>
-			</ScrollView>
-			<Button  title="SIGN IN" height="50" top="20" backgroundColor="green" left="10" right="10" onClick="emailLogin"></Button>
-			<Button  title="Sign in With Facebook" height="50" top="10" backgroundColor="blue" left="10" right="10" onClick="fbLogin"></Button>
-		</Window>
+		<ImageView id="logo"></ImageView>
+		<ScrollView id="scrollView" backgroundColor="#fff">
+			<View  id="childView">
+				<Label id='header' text="Sign In Via Email"></Label>
+				<Label id="email" text="Email Address"></Label>
+				<TextField id="emailField"></TextField>
+				<Label id="email" text="Password"></Label>
+				<TextField id="passField"></TextField>
+				<Label id="email" text="Confirm password"></Label>
+				<TextField id="passField"></TextField>
+			</View>
+		</ScrollView>
+		<Button  title="SIGN IN" height="50" top="20" backgroundColor="green" left="10" right="10" onClick="emailLogin"></Button>
+		<Button  title="Sign in With Facebook" height="50" top="10" backgroundColor="blue" left="10" right="10" onClick="fbLogin"></Button>
+	</Window>
 </Alloy>
